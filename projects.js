@@ -1,0 +1,1 @@
+var carousels = bulmaCarousel.attach();

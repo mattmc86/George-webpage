@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>George's Webpage</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
 </head>
 <body>
 
@@ -35,11 +44,11 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
+            <a class="navbar-item" href="./planes.html">
              Planes
             </a>
       
-            <a class="navbar-item">
+            <a class="navbar-item" href="./trains.html">
               Trains
             </a>
       
@@ -49,13 +58,13 @@
               </a>
       
               <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  Football
+                <a class="navbar-item" href="./football.html">
+                  Football 
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="./cricket.html">
                   Cricket
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="./stadiums.html">
                   Stadiums
                 </a>
             
@@ -66,6 +75,271 @@
 
         </div>
       </nav>
-    
+      <section class="hero is-small">
+        <!-- <figure class="image is-16by9">
+          <image class="has-ratio" width="640" height="360" src="./codeImage.jpg" frameborder="0" allowfullscreen></iframe>
+        </figure> -->
+      <div class="hero-body">
+        <p class="title">
+   Planes
+        </p>
+        <p class="subtitle">
+      These are my favourite planes
+        </p>
+      </div>
+    </section>
+
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">TUI</p>
+             
+           
+              <figure class="image is-4by3">
+                <img src="./tui.jpeg" />
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Lufthansa</p>
+             
+             
+              <figure class="image is-4by3">
+                <img src="./lufthansa.jpeg" />
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Phill Foden</p>
+              <p class="subtitle">Position: Midfield  Team: Manchester City</p>
+              
+              <figure class="image is-4by3">
+                <img src="./foden.jpeg" />
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Cristiano Ronaldo</p>
+              <p class="subtitle">
+                Position: Forward   Team: Portugal
+              </p>
+              
+              <figure class="image is-4by3">
+                <img src="./ronaldo.jpeg" />
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title"></p>
+              <p class="subtitle">
+                A full stack app allowing users to login and write blogs and
+                comment on other users blogs.
+              </p>
+              
+              <figure class="image is-4by3">
+                <img src="./techblog.png" />
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Note Taker</p>
+              <p class="subtitle">
+                An app allowing users to add and save notes.
+              </p>
+              <a href="https://mattm-note-taker.herokuapp.com/" target="blank"
+                >Check it out</a
+              >
+              <br />
+              <a href="https://github.com/mattmc86/Note-Taker" target="blank"
+                >Check out the repo</a
+              >
+              <figure class="image is-4by3">
+                <img src="./notes.png" />
+              </figure>
+            </article>
+          </div>
+        </div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <!-- <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Movie and Book Generator</p>
+          <p class="subtitle">
+            Choose a genre and get recomendations for something to read or
+            watch and where to find it.
+          </p>
+          <a
+            href="https://mattglwilliams.github.io/the-movie-book-generator/"
+            target="blank"
+            >Check it out</a
+          >
+          <br />
+
+          <a
+            href="https://github.com/mattglwilliams/the-movie-book-generator"
+            target="blank"
+            >Check out the repo</a
+          >
+          <figure class="image is-4by3">
+            <img src="./movieAndBook.png" />
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Weather App</p>
+          <p class="subtitle">
+            Find out the current weather for a city and the 5 day forcast.
+          </p>
+          <a href="https://mattmc86.github.io/weatherApp/" target="blank"
+            >Check it out</a
+          >
+          <br />
+          <a href="https://github.com/mattmc86/weatherApp" target="blank"
+            >Check out the repo</a
+          >
+          <figure class="image is-4by3">
+            <img src="./weather.png" />
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Team Task Manager</p>
+          <p class="subtitle">Full stack app to manage projects.</p>
+          <a href="https://teamtask-manager.herokuapp.com/" target="blank"
+            >Check it out</a
+          >
+          <br />
+          <a
+            href="https://github.com/AidKool/team-task-manager"
+            target="blank"
+            >Check out the repo</a
+          >
+          <figure class="image is-4by3">
+            <img src="./TTM.png" />
+          </figure>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Team Builder</p>
+          <p class="subtitle">
+            Create team members and profiles using inquirer which generates an
+            HTML page.
+          </p>
+          <a
+            href="https://github.com/mattmc86/Team-Profile-Generator"
+            target="blank"
+            >Check out the repo</a
+          >
+          <figure class="image is-4by3">
+            <img src="./employee.png" />
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Tech Blog</p>
+          <p class="subtitle">
+            A full stack app allowing users to login and write blogs and
+            comment on other users blogs.
+          </p>
+          <a href="https://tech-blog-matt.herokuapp.com/" target="blank"
+            >Check it out</a
+          >
+          <br />
+          <a href="https://github.com/mattmc86/tech-blog-MVC" target="blank"
+            >Check out the repo</a
+          >
+          <figure class="image is-4by3">
+            <img src="./techblog.png" />
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Note Taker</p>
+          <p class="subtitle">An app allowing users to add and save notes.</p>
+          <a href="https://mattm-note-taker.herokuapp.com/" target="blank"
+            >Check it out</a
+          >
+          <br />
+          <a href="https://github.com/mattmc86/Note-Taker" target="blank"
+            >Check out the repo</a
+          >
+          <figure class="image is-4by3">
+            <img src="./notes.png" />
+          </figure>
+        </article>
+      </div>
+    </div> -->
+    <script src="navbar.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        effect: "cube",
+        grabCursor: false,
+        cubeEffect: {
+          // shadow: true,
+          // slideShadows: true,
+          //shadowOffset: 20,
+          // shadowScale: 0.94,
+        },
+        // Optional parameters
+        // direction: "vertical",
+        // loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
 </body>
 </html>
