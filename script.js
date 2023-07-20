@@ -1,28 +1,28 @@
 var questions = [
     {
-      question: "Which of the following is not a data type",
-      choices: ["String", "Alert", "Boolean", "Number"],
-      correctAnswer: "Alert",
+      question: "Stadium of Light",
+      choices: ["Sunderland", "Man Utd", "Wolves", "West Ham"],
+      correctAnswer: "Sunderland",
     },
     {
-      question: "A very useful debugging tool is the.......",
-      choices: ["Console Log", "Browser", "Repellent", "For Loop"],
-      correctAnswer: "Console Log",
+      question: "Old Trafford",
+      choices: ["Liverpool", "Newcastle", "Man Utd", "Man City"],
+      correctAnswer: "Man Utd",
     },
     {
-     question: "The condition in an IF statement must be stored in .......",
+     question: "Stamford Bridge",
        choices: [
-       "Curly Brackets",
-        "Sqaure Brackets",
-        "parentheses",
-        "semi colons",
+       "Crystal Palace",
+        "Aston Villa",
+        "Tottenham",
+        "Chelsea",
       ],
-      correctAnswer: "parentheses",
+      correctAnswer: "Chelsea",
     },
     {
-       question: "Arrays in Javascript can be used to store........",
-      choices: ["Strings", "Numbers", "Boolean", "All of the above"],
-      correctAnswer: "All of the above",
+       question: "Goodison Park",
+      choices: ["Everton", "Liverpool", "Leeds", "Newcastle"],
+      correctAnswer: "Everton",
     },
 
 ]; 
@@ -87,7 +87,8 @@ function createQuestion(){
        for (var i=0; i <=questions[questionsIndex].choices.length; i++){
 
         var buttonEl = document.createElement("button");
-        buttonEl.setAttribute('style', 'background-color: purple ;color: white ;');
+        buttonEl.setAttribute('style', 'background-color: green ;color: white ; padding-left:30px' 
+        );
     
         buttonEl.textContent = questions[questionsIndex].choices[i];
 
@@ -99,7 +100,7 @@ function createQuestion(){
 
     }
 
-  let seconds = 20
+  let seconds = 360
   let score = 0
   let incorrect = 0
 
